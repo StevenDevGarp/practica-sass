@@ -1,0 +1,225 @@
+body {
+  background-color: #FFEFE7;
+  padding: 0%;
+  margin: 0%;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  width: auto;
+  height: 100px;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: normal;
+  color: #7C6A0A;
+  padding: 15px;
+}
+nav p {
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: normal;
+  width: auto;
+  color: #7C6A0A;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 70px;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  align-items: normal;
+  gap: 25px;
+  padding-top: 50px;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0%;
+  margin: 0%;
+}
+article p {
+  font-size: 1.5em;
+}
+article button {
+  background: none;
+  border-style: none;
+}
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: #fa9500;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 1em;
+}
+article button:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+section .healthcare, section .furniture {
+  padding-bottom: 60px;
+}
+section .healthcare h2, section .furniture h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .healthcare .card-section, section .furniture .card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  -moz-column-gap: 163px;
+       column-gap: 163px;
+  row-gap: 71px;
+}
+section .healthcare .card-section .product-card, section .furniture .card-section .product-card {
+  width: 14vw;
+  height: 45vh;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .healthcare .card-section .product-card .icons, section .furniture .card-section .product-card .icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: normal;
+  padding-bottom: 12px;
+}
+section .healthcare .card-section .product-card .icons svg, section .furniture .card-section .product-card .icons svg {
+  width: 28px;
+  height: 28px;
+}
+section .healthcare .card-section .product-card .img-product, section .furniture .card-section .product-card .img-product {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+section .healthcare .card-section .product-card .img-product img, section .furniture .card-section .product-card .img-product img {
+  width: 14vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+section .furniture .card-section .product-card {
+  background-color: #BABD8D;
+  color: #fff;
+}
+section .furniture .card-section .product-card .icons svg {
+  stroke: #fff;
+}
+
+.about-us h2 {
+  font-weight: bold !important;
+  padding-bottom: 60px;
+}
+.about-us .mission-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-us .mission-section .earth, .about-us .mission-section .innovation {
+  display: flex;
+  gap: 5px;
+  width: 30vw;
+}
+.about-us .mission-section .earth img, .about-us .mission-section .innovation img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.about-us .mission-section .earth p, .about-us .mission-section .innovation p {
+  font-size: 1.5em;
+  color: #E86424;
+  text-align: center;
+  font-weight: 500;
+}
+.gallery h2 {
+  font-weight: bold !important;
+  padding-bottom: 60px;
+}
+.gallery .img-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.gallery img {
+  border-radius: 16px;
+  width: 20vw;
+  height: 30vh;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.location {
+  color: #E86424;
+}
+.location h2 {
+  padding-top: 60px;
+  font-weight: bold !important;
+  padding-bottom: 60px;
+}
+.location .map img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #fa9500;
+  height: auto;
+  padding: 40px;
+  color: #fff;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30.722px;
+}/*# sourceMappingURL=main.css.map */
